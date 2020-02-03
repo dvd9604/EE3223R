@@ -4,9 +4,9 @@ Welcome to C++ & Data Structures recitation. Here is some important information 
 
 ## About Me
 
-Name: Divy Dandona
-Email: divyaansh.dandona@my.utsa.edu
-Github: https://www.github.com/dvd9604/
+Name: Divy Dandona  
+Email: divyaansh.dandona@my.utsa.edu  
+Github: https://www.github.com/dvd9604/  
 
 ## Meeting Time
 
