@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -24,6 +22,20 @@ int main()
   getline(cin, userText); // Gets entire line, including spaces.
 
   /* Type your code here. */
+
+  int count = 0;
+
+  for (auto ch : userText)
+  {
+    // ignore all chars but spaces, exclamation points, and dollar signs
+    if (ch != ' ' && ch != '!' && ch != '$')
+    {
+      count++;
+    }
+  }
+
+  // print out final count
+  cout << count << endl;
 
   return 0;
 }

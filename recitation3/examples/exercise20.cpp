@@ -21,5 +21,25 @@ int main()
 
   /* Type your code here. */
 
+  string userInput;
+
+  // output string which will be generated from user input
+  string output;
+
+  getline(cin, userInput);
+
+  for (auto ch : userInput)
+  {
+    //check for spaces
+    if (ch != ' ')
+    {
+      // add non space char to output string
+      output += ch;
+    }
+  }
+
+  // print reconstructed output
+  cout << output << endl;
+
   return 0;
 }
