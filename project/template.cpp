@@ -92,7 +92,7 @@ vector<Course> read_required_courses(string filepath)
     }
 }
 
-vector<Course> read_inprogress_courses(string filepath)
+vector<CourseIP> read_inprogress_courses(string filepath)
 {
     // row of rows for file
     vector<vector<string>> data = read_csv(filepath);
@@ -106,7 +106,7 @@ vector<Course> read_inprogress_courses(string filepath)
     }
 }
 
-vector<Course> read_taken_courses(string filepath)
+vector<CourseTaken> read_taken_courses(string filepath)
 {
     // row of rows for file
     vector<vector<string>> data = read_csv(filepath);
