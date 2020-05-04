@@ -91,7 +91,7 @@ vector<Course> read_required_courses(string filepath)
     classes.push_back(Course(row.at(0), row.at(1), row.at(2), stoi(row.at(3)), stoi(row.at(4))));
   }
 
-  cout << "loaded " << classes.size() << " files";
+  cout << "loaded " << classes.size() << " files" <<endl;
   return classes;
 }
 
