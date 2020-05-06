@@ -124,9 +124,9 @@ int main(int argc, char const *argv[])
 {
     vector<Course> required_courses = read_required_courses("./Required_Courses.csv");
 
-    // vector<CourseTaken> required_courses = read_taken_courses("./Taken_Courses.csv");
-    // vector<CourseIP> required_courses = read_inprogress_courses("./InProgress_Courses.csv");
-    // vector<Assignment> required_courses = read_assignments("./InProgress_Tasks.csv");
+   // vector<CourseTaken> taken_courses = read_taken_courses("./Taken_Courses.csv");
+   // vector<CourseIP> inprogress_courses = read_inprogress_courses("./InProgress_Courses.csv");
+   // vector<Assignment> tasks = read_assignments("./InProgress_Tasks.csv");
 
     /*
     GPA calculation and printing out transcript
